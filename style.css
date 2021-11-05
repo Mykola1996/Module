@@ -44,6 +44,12 @@
 .logo {
     font-weight: 500;
 }
+.logo-right img {
+    padding: 12px 0;
+}
+.logo-right p {
+    line-height: 3px;
+}
 .header_main_item {
     display: flex;
     margin: 44px 0;
@@ -53,23 +59,63 @@
 
 }
 .working_hours_text {
+    padding-top: 25px;
     font-weight: 500;
+    font-size: 14px;
+    line-height: 8px;
+    text-align: right;
+    color: #0F2438;
 
 }
-.location text{
-
+.location-text{
+    font-weight: 500;
+    padding-top: 19px;
 }
 .whatsApp {
-    width: 172px;
-    height: 14px;
-    left: 1222px;
-    top: 90px;
+    background-color: #E1EFD0;
+    border-radius: 2px;
+    height: 30px;
+    width: 200px;
 
 }
+.whatsApp p {
+    padding-top: 17px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #000000;
+}
 .contact {
-    width: 157px;
-    height: 40px;
-    left: 1480px;
-    top: 77px;
     flex-direction: column;
+    text-align: right;
+    align-items: self-end;
+    row-gap: 8px;
+
+}
+.number {
+    font-weight: 500;
+    font-size: 20px;
+    color: #0F2438;
+    margin-bottom: -10px;
+}
+.contact_text {
+    font-size: 12px;
+    text-decoration-line: underline;
+    color: #0F2438;
+}
+.header_bottom {
+    display: flex;
+}
+.header_bottom_left__button > p {
+    margin: 0 10px;
+}
+.header_bottom_left {
+
+}
+.header_bottom_left__form {
+
+}
+.header_bottom_right__item {
+    display: flex;
 }
